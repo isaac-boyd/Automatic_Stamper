@@ -7,7 +7,7 @@ Bool pressAloud = true;
 
 class stamper {
 public:
-    void begin(int servoPin)
+    void begin(int servoPin);
     void stampHand();
     void detectHand();
     
